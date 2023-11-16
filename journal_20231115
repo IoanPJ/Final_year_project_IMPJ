@@ -3,7 +3,7 @@ Further work on imputation:
 
 - wrangling the GitHub code used in Luken et al. 2021. Got this code to work with SciKitLearn's 'iris' dataset but realised that the Fermi-LAT dataset needed extensive reformatting.
 
-- realised that in order to test the efficacy/accuracy of imputation I will need a working ML model to compare predictions with imputed values.
+- realised that in order to test the efficacy/accuracy of imputation I will need a working ML model to compare predictions with different imputed values.
 
 First time implementing ML on the Fermi-LAT dataset. This involved:
 
