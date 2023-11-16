@@ -1,0 +1,17 @@
+
+ANN Optimization
+
+- Ran the following parameters, where hl_list is a list of all possible (N,2) hidden layer dimensions from 1 to 50:
+    parameter_space = {
+        'hidden_layer_sizes':hl_list,
+        'activation':['tanh','relu'],
+        'solver':['sgd','adam'],
+        'alpha':[0.0001,0.001,0.00001],
+        'learning_rate':['constant','invscaling','adaptive']}
+    
+    The optimal parameters were as follows:  MLPClassifier(activation='relu', alpha= 0.0001, hidden_layer_sizes=(13, 2), learning_rate='constant', solver='sgd', random_state=1, max_iter=1000)
+
+    This configuration gives a classification accuracy of 91.33574007220217 with confusion matrix:
+    [[170   7]
+    [ 17  83]]
+
