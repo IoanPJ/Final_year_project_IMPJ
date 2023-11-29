@@ -12,7 +12,7 @@ from mlxtend.feature_selection import SequentialFeatureSelector as sfs
 
 
 
-data = pd.read_csv('Fermi-LAT Data\\fl_varranked_rm' + str(sys.argv[1]) + '.csv',index_col=0)
+data = pd.read_csv('../Fermi-LAT Data/fl_varranked_rm' + str(sys.argv[1]) + '.csv',index_col=0)
 
 '''
 In 'data' all unknown BCUs are assigned 0. 
@@ -73,9 +73,11 @@ from sklearn.ensemble import BaggingClassifier
 
 NN = MLPClassifier(activation='relu', alpha= 0.0001, hidden_layer_sizes=(13, 2), learning_rate='constant', solver='sgd', random_state=1, max_iter=10000)
 
-model=sfs(NN,k_features=10,forward=True,verbose=2,cv=5,n_jobs=-1,scoring='r2')
+NN.fit(x_train, y_train)
 
-model.fit(x_train, y_train)
+model=sfs(NN,k_features=10,forward=True,verbose=2,cv=5,n_jobs=-1,scoring='accuracy')
+
+model = model.fit(x_train, y_train)
 
 'Making use of the above algorithm with bagging implemented'
 
