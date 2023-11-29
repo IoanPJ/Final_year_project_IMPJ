@@ -91,8 +91,8 @@ print('The Neural Network accuracy for rm ' + str(sys.argv[1]) +' is ' + str(acc
 #print('The Neural Network Confusion Matrix is:')
 #print(confusion)
 
-df = pd.DataFrame((accuracy,b_accuracy),columns=['accuracy'])
-df.to_csv('automated_variable_results\\accuracies for rm' + str(sys.argv[1]) +'.csv')
+#df = pd.DataFrame((accuracy,b_accuracy),columns=['accuracy'])
+#df.to_csv('automated_variable_results\\accuracies for rm' + str(sys.argv[1]) +'.csv')
 
 '''# %%
 import matplotlib.pyplot as plt
