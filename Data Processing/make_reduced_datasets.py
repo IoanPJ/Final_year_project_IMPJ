@@ -2,7 +2,6 @@
 import pandas as pd
 import numpy as np
 import sys
-import intertools
 
 num = int(sys.argv[1])
 
@@ -31,10 +30,6 @@ rm_features = np.array(['ASSOC_PROB_LR'])
 for i in range(0,num):
     rm_features = np.append(rm_features,var_ranking1['features'][i])
 
-for i in range(0,rm_num):
-    for j in 
-    remove_features = itertools.combinations()
-    reduced_dataset['column_' + str(j)]
 
 
 
