@@ -8,8 +8,8 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.preprocessing import StandardScaler  
 from sklearn.model_selection import GridSearchCV
 import sys
-from mlxtend.feature_selection import SequentialFeatureSelector as sfs
-
+#from mlxtend.feature_selection import SequentialFeatureSelector as sfs
+from sklearn.feature_selection import SequentialFeatureSelector as sfs
 
 
 data = pd.read_csv('../Fermi-LAT Data/fl_varranked_rm' + str(sys.argv[1]) + '.csv',index_col=0)
@@ -75,12 +75,13 @@ NN = MLPClassifier(activation='relu', alpha= 0.0001, hidden_layer_sizes=(13, 2),
 
 NN.fit(x_train, y_train)
 
-model=sfs(NN,k_features=10,forward=True,verbose=2,cv=5,n_jobs=-1,scoring='accuracy')
+model=sfs(NN,n_features_to_select=10,tol=1,direction='forward',scoring=None, cv = None, n_jobs=-1)
 
 model = model.fit(x_train, y_train)
 
 'Making use of the above algorithm with bagging implemented'
 
+print(model.get_feature_names_out())
 
 y_pred = NN.predict(x_test)
 y_proba = NN.predict_proba(x_test)
@@ -91,7 +92,7 @@ print('The Neural Network accuracy for rm ' + str(sys.argv[1]) +' is ' + str(acc
 #print('The Neural Network Confusion Matrix is:')
 #print(confusion)
 
-df = pd.DataFrame((accuracy,b_accuracy),columns=['accuracy'])
+df = pd.DataFrame((accuracy),columns=['accuracy'])
 df.to_csv('automated_variable_results\\accuracies for rm' + str(sys.argv[1]) +'.csv')
 
 '''# %%
