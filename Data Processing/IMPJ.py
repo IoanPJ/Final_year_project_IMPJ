@@ -33,12 +33,15 @@ class DataProcessor:
         print('check1')
         return data.loc[:, data.columns != classname] , Y
     
-    def logtransform(self,data):
+    def logtransform(self,data,features):
         
-        featurelist = ['Pivot_Energy']
+        featurelist = features
 
         for x in featurelist:
-            data[x] = np.log(data[x])
+            if 0 in data[x]:
+                data.loc[x] = np.log(data.loc[x]+1)
+            else:
+                data.loc[x] = np.log(data.loc[x])
         return data
     
     def multipleimputation(self,data,col,rmindices):
