@@ -1,0 +1,45 @@
+2023-12-08 17:35:31,156 INFO    MainThread:15368 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2023-12-08 17:35:31,157 INFO    MainThread:15368 [wandb_setup.py:_flush():76] Configure stats pid to 15368
+2023-12-08 17:35:31,157 INFO    MainThread:15368 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ioanp\.config\wandb\settings
+2023-12-08 17:35:31,157 INFO    MainThread:15368 [wandb_setup.py:_flush():76] Loading settings from c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML trials\wandb\settings
+2023-12-08 17:35:31,157 INFO    MainThread:15368 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-08 17:35:31,158 INFO    MainThread:15368 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-08 17:35:31,159 INFO    MainThread:15368 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-08 17:35:31,159 INFO    MainThread:15368 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML trials\wandb\run-20231208_173531-vvh8hsfa\logs\debug.log
+2023-12-08 17:35:31,160 INFO    MainThread:15368 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML trials\wandb\run-20231208_173531-vvh8hsfa\logs\debug-internal.log
+2023-12-08 17:35:31,160 INFO    MainThread:15368 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000024C89D2B910>
+2023-12-08 17:35:31,161 INFO    MainThread:15368 [wandb_init.py:init():564] calling init triggers
+2023-12-08 17:35:31,161 INFO    MainThread:15368 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+2023-12-08 17:35:31,161 INFO    MainThread:15368 [wandb_init.py:init():614] starting backend
+2023-12-08 17:35:31,162 INFO    MainThread:15368 [wandb_init.py:init():618] setting up manager
+2023-12-08 17:35:31,164 INFO    MainThread:15368 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2023-12-08 17:35:31,169 INFO    MainThread:15368 [wandb_init.py:init():624] backend started and connected
+2023-12-08 17:35:31,179 INFO    MainThread:15368 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-08 17:35:31,182 INFO    MainThread:15368 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-08 17:35:31,183 INFO    MainThread:15368 [wandb_init.py:init():716] updated telemetry
+2023-12-08 17:35:31,280 INFO    MainThread:15368 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-08 17:35:32,672 INFO    MainThread:15368 [wandb_run.py:_on_init():2254] communicating current version
+2023-12-08 17:35:33,602 INFO    MainThread:15368 [wandb_run.py:_on_init():2263] got version response 
+2023-12-08 17:35:33,602 INFO    MainThread:15368 [wandb_init.py:init():800] starting run threads in backend
+2023-12-08 17:35:33,999 INFO    MainThread:15368 [wandb_run.py:_console_start():2233] atexit reg
+2023-12-08 17:35:34,000 INFO    MainThread:15368 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-12-08 17:35:34,000 INFO    MainThread:15368 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-12-08 17:35:34,000 INFO    MainThread:15368 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-12-08 17:35:34,001 INFO    MainThread:15368 [wandb_init.py:init():841] run started, returning control to user process
+2023-12-08 17:35:34,001 INFO    MainThread:15368 [wandb_run.py:_config_callback():1342] config_cb None None {'test_size': 0.2, 'train_len': 455, 'test_len': 114}
+2023-12-08 17:35:34,004 INFO    MainThread:15368 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'class_proportions'}} None
+2023-12-08 17:35:46,069 INFO    MainThread:15368 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'learning_curve'}} None
+2023-12-08 17:35:47,141 INFO    MainThread:15368 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'roc') {'id': 'wandb/roc/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'roc'}} None
+2023-12-08 17:35:48,354 INFO    MainThread:15368 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'precision_recall') {'id': 'wandb/pr_curve/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'precision_recall'}} None
+2023-12-08 17:35:49,394 INFO    MainThread:15368 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'feature_importances') {'id': 'wandb/feature_importances/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'feature_importances'}} None
+2023-12-08 17:35:50,414 INFO    MainThread:15368 [wandb_run.py:_finish():1962] finishing run ioanpeakejones/my-awesome-project/vvh8hsfa
+2023-12-08 17:35:50,416 ERROR   MainThread:15368 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-12-08 17:35:50,416 INFO    MainThread:15368 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-08 17:35:50,416 INFO    MainThread:15368 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-12-08 17:35:50,417 INFO    MainThread:15368 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-12-08 17:35:50,417 INFO    MainThread:15368 [wandb_run.py:_restore():2185] restore
+2023-12-08 17:35:50,417 INFO    MainThread:15368 [wandb_run.py:_restore():2191] restore done
+2023-12-08 17:36:03,802 INFO    MainThread:15368 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2023-12-08 17:36:03,803 INFO    MainThread:15368 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2023-12-08 17:36:03,813 INFO    MainThread:15368 [wandb_run.py:_footer_sync_info():3796] logging synced files

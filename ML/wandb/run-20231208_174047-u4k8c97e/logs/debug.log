@@ -1,0 +1,18 @@
+2023-12-08 17:40:47,382 INFO    MainThread:19008 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2023-12-08 17:40:47,383 INFO    MainThread:19008 [wandb_setup.py:_flush():76] Configure stats pid to 19008
+2023-12-08 17:40:47,383 INFO    MainThread:19008 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ioanp\.config\wandb\settings
+2023-12-08 17:40:47,383 INFO    MainThread:19008 [wandb_setup.py:_flush():76] Loading settings from c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\settings
+2023-12-08 17:40:47,383 INFO    MainThread:19008 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-08 17:40:47,383 INFO    MainThread:19008 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-08 17:40:47,384 INFO    MainThread:19008 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-08 17:40:47,384 INFO    MainThread:19008 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_174047-u4k8c97e\logs\debug.log
+2023-12-08 17:40:47,384 INFO    MainThread:19008 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_174047-u4k8c97e\logs\debug-internal.log
+2023-12-08 17:40:47,385 INFO    MainThread:19008 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001C31D4CEF90>
+2023-12-08 17:40:47,385 INFO    MainThread:19008 [wandb_init.py:init():564] calling init triggers
+2023-12-08 17:40:47,385 INFO    MainThread:19008 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-12-08 17:40:47,386 INFO    MainThread:19008 [wandb_init.py:init():589] re-initializing run, found existing run on stack: v0jh6ykh
+2023-12-08 17:40:47,393 INFO    MainThread:19008 [wandb_run.py:_finish():1962] finishing run ioanpeakejones/final-year-project/v0jh6ykh
+2023-12-08 17:40:47,393 INFO    MainThread:19008 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-12-08 17:40:47,394 INFO    MainThread:19008 [wandb_run.py:_restore():2185] restore
+2023-12-08 17:40:47,396 INFO    MainThread:19008 [wandb_run.py:_restore():2191] restore done

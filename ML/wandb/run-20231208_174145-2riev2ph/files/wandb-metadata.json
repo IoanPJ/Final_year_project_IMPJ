@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.7",
+    "heartbeatAt": "2023-12-08T17:41:48.094344",
+    "startedAt": "2023-12-08T17:41:45.976233",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/IoanPJ/initial_coding.git",
+        "commit": "98547a618cddbc7b98bac2f400acb905188f1374"
+    },
+    "email": "35175670+IoanPJ@users.noreply.github.com",
+    "root": "C:/Users/ioanp/Documents/Final Year Project/initial_coding",
+    "host": "IMPJ_Laptop",
+    "username": "ioanp",
+    "executable": "C:\\Users\\ioanp\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 474.71581649780273,
+            "used": 134.21458053588867
+        }
+    },
+    "memory": {
+        "total": 7.730339050292969
+    }
+}

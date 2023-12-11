@@ -1,0 +1,28 @@
+3745    2
+2930    1
+2823    2
+3705    2
+5580    1
+       ..
+1538    2
+3091    2
+1935    1
+677     2
+5979    1
+Name: CLASS1, Length: 968, dtype: int64
+check2
+4       1
+10      1
+25      1
+27      1
+29      2
+       ..
+7171    1
+7179    2
+7180    1
+7182    1
+7190    1
+Name: CLASS1, Length: 1383, dtype: int64
+The Neural Network accuracy is 91.56626506024097
+The Neural Network Confusion Matrix is:
+[[253  14]

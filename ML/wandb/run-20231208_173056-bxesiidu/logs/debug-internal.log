@@ -1,0 +1,220 @@
+2023-12-08 17:31:03,410 INFO    StreamThr :18912 [internal.py:wandb_internal():86] W&B internal server running at pid: 18912, started at: 2023-12-08 17:31:03.409374
+2023-12-08 17:31:03,412 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status
+2023-12-08 17:31:03,415 INFO    WriterThread:18912 [datastore.py:open_for_write():85] open: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\run-bxesiidu.wandb
+2023-12-08 17:31:03,417 DEBUG   SenderThread:18912 [sender.py:send():382] send: header
+2023-12-08 17:31:03,431 DEBUG   SenderThread:18912 [sender.py:send():382] send: run
+2023-12-08 17:31:04,645 INFO    SenderThread:18912 [dir_watcher.py:__init__():211] watching files in: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files
+2023-12-08 17:31:04,645 INFO    SenderThread:18912 [sender.py:_start_run_threads():1136] run started: bxesiidu with start time 1702056663.340174
+2023-12-08 17:31:04,668 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: check_version
+2023-12-08 17:31:04,668 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: check_version
+2023-12-08 17:31:05,524 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: run_start
+2023-12-08 17:31:05,549 DEBUG   HandlerThread:18912 [system_info.py:__init__():32] System info init
+2023-12-08 17:31:05,549 DEBUG   HandlerThread:18912 [system_info.py:__init__():47] System info init done
+2023-12-08 17:31:05,549 INFO    HandlerThread:18912 [system_monitor.py:start():194] Starting system monitor
+2023-12-08 17:31:05,550 INFO    SystemMonitor:18912 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-08 17:31:05,551 INFO    HandlerThread:18912 [system_monitor.py:probe():214] Collecting system info
+2023-12-08 17:31:05,561 INFO    SystemMonitor:18912 [interfaces.py:start():190] Started cpu monitoring
+2023-12-08 17:31:05,570 DEBUG   HandlerThread:18912 [system_info.py:probe():196] Probing system
+2023-12-08 17:31:05,570 INFO    SystemMonitor:18912 [interfaces.py:start():190] Started disk monitoring
+2023-12-08 17:31:05,578 INFO    SystemMonitor:18912 [interfaces.py:start():190] Started memory monitoring
+2023-12-08 17:31:05,598 INFO    SystemMonitor:18912 [interfaces.py:start():190] Started network monitoring
+2023-12-08 17:31:05,614 DEBUG   HandlerThread:18912 [system_info.py:_probe_git():181] Probing git
+2023-12-08 17:31:05,790 DEBUG   HandlerThread:18912 [system_info.py:_probe_git():189] Probing git done
+2023-12-08 17:31:05,790 DEBUG   HandlerThread:18912 [system_info.py:probe():244] Probing system done
+2023-12-08 17:31:05,791 DEBUG   HandlerThread:18912 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.7', 'heartbeatAt': '2023-12-08T17:31:05.570607', 'startedAt': '2023-12-08T17:30:56.087977', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/IoanPJ/initial_coding.git', 'commit': '98547a618cddbc7b98bac2f400acb905188f1374'}, 'email': '35175670+IoanPJ@users.noreply.github.com', 'root': 'C:/Users/ioanp/Documents/Final Year Project/initial_coding', 'host': 'IMPJ_Laptop', 'username': 'ioanp', 'executable': 'C:\\Users\\ioanp\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2100.0, 'min': 0.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 0.0, 'max': 2100.0}], 'disk': {'/': {'total': 474.71581649780273, 'used': 134.21053314208984}}, 'memory': {'total': 7.730339050292969}}
+2023-12-08 17:31:05,791 INFO    HandlerThread:18912 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-08 17:31:05,791 INFO    HandlerThread:18912 [system_monitor.py:probe():227] Publishing system info
+2023-12-08 17:31:05,791 DEBUG   HandlerThread:18912 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-08 17:31:05,792 DEBUG   HandlerThread:18912 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-08 17:31:05,793 INFO    HandlerThread:18912 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-08 17:31:05,794 DEBUG   SenderThread:18912 [sender.py:send():382] send: files
+2023-12-08 17:31:05,794 INFO    SenderThread:18912 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2023-12-08 17:31:05,824 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 17:31:05,825 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: stop_status
+2023-12-08 17:31:05,831 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:31:06,649 INFO    Thread-31 :18912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\wandb-metadata.json
+2023-12-08 17:31:06,649 INFO    Thread-31 :18912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\requirements.txt
+2023-12-08 17:31:06,892 DEBUG   SenderThread:18912 [sender.py:send():382] send: telemetry
+2023-12-08 17:31:06,892 DEBUG   SenderThread:18912 [sender.py:send():382] send: config
+2023-12-08 17:31:07,302 INFO    wandb-upload_0:18912 [upload_job.py:push():131] Uploaded file C:\Users\ioanp\AppData\Local\Temp\tmp5s4_w42qwandb\vefm8nkw-wandb-metadata.json
+2023-12-08 17:31:08,894 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:13,932 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:18,938 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:20,822 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 17:31:20,822 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: stop_status
+2023-12-08 17:31:20,828 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:31:24,059 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:29,076 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:34,085 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:34,785 INFO    Thread-31 :18912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\config.yaml
+2023-12-08 17:31:35,825 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 17:31:35,826 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: stop_status
+2023-12-08 17:31:35,829 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:31:40,094 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:45,097 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:50,099 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:31:50,812 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 17:31:50,812 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: stop_status
+2023-12-08 17:31:50,832 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:31:56,028 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:01,032 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:05,612 DEBUG   SystemMonitor:18912 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-08 17:32:05,615 DEBUG   SenderThread:18912 [sender.py:send():382] send: stats
+2023-12-08 17:32:05,825 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 17:32:05,825 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: stop_status
+2023-12-08 17:32:05,840 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:32:06,078 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:11,082 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:16,086 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:20,817 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 17:32:20,818 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: stop_status
+2023-12-08 17:32:20,844 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:32:21,365 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:22,048 INFO    Thread-31 :18912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\output.log
+2023-12-08 17:32:24,058 INFO    Thread-31 :18912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\output.log
+2023-12-08 17:32:26,364 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:31,373 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:35,616 DEBUG   SenderThread:18912 [sender.py:send():382] send: stats
+2023-12-08 17:32:35,814 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 17:32:35,815 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: stop_status
+2023-12-08 17:32:35,846 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:32:37,043 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:37,078 DEBUG   SenderThread:18912 [sender.py:send():382] send: telemetry
+2023-12-08 17:32:37,081 DEBUG   SenderThread:18912 [sender.py:send():382] send: exit
+2023-12-08 17:32:37,081 INFO    SenderThread:18912 [sender.py:send_exit():589] handling exit code: 0
+2023-12-08 17:32:37,082 INFO    SenderThread:18912 [sender.py:send_exit():591] handling runtime: 91
+2023-12-08 17:32:37,082 INFO    SenderThread:18912 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-08 17:32:37,083 INFO    SenderThread:18912 [sender.py:send_exit():597] send defer
+2023-12-08 17:32:37,083 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,083 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-08 17:32:37,084 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,084 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 0
+2023-12-08 17:32:37,084 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 1
+2023-12-08 17:32:37,084 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,085 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-08 17:32:37,085 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,085 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 1
+2023-12-08 17:32:37,085 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 2
+2023-12-08 17:32:37,086 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,086 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-08 17:32:37,086 INFO    HandlerThread:18912 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-08 17:32:37,086 DEBUG   SystemMonitor:18912 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-08 17:32:37,087 DEBUG   SystemMonitor:18912 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-08 17:32:37,087 INFO    HandlerThread:18912 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-08 17:32:37,088 INFO    HandlerThread:18912 [interfaces.py:finish():202] Joined disk monitor
+2023-12-08 17:32:37,089 INFO    HandlerThread:18912 [interfaces.py:finish():202] Joined memory monitor
+2023-12-08 17:32:37,089 INFO    HandlerThread:18912 [interfaces.py:finish():202] Joined network monitor
+2023-12-08 17:32:37,090 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,090 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 2
+2023-12-08 17:32:37,090 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 3
+2023-12-08 17:32:37,090 DEBUG   SenderThread:18912 [sender.py:send():382] send: stats
+2023-12-08 17:32:37,090 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,091 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-08 17:32:37,091 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,092 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 3
+2023-12-08 17:32:37,092 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 4
+2023-12-08 17:32:37,092 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,092 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-08 17:32:37,093 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,093 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 4
+2023-12-08 17:32:37,093 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 5
+2023-12-08 17:32:37,093 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,094 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-08 17:32:37,094 DEBUG   SenderThread:18912 [sender.py:send():382] send: summary
+2023-12-08 17:32:37,095 INFO    SenderThread:18912 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-08 17:32:37,097 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,097 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 5
+2023-12-08 17:32:37,097 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 6
+2023-12-08 17:32:37,097 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,098 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-08 17:32:37,098 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,098 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 6
+2023-12-08 17:32:37,103 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 17:32:37,115 INFO    Thread-31 :18912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\wandb-summary.json
+2023-12-08 17:32:37,314 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 7
+2023-12-08 17:32:37,314 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:37,315 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-08 17:32:37,315 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:37,315 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 7
+2023-12-08 17:32:38,083 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 17:32:38,117 INFO    Thread-31 :18912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\config.yaml
+2023-12-08 17:32:39,368 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 8
+2023-12-08 17:32:39,369 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: poll_exit
+2023-12-08 17:32:39,369 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:39,370 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-08 17:32:39,371 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:39,371 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 8
+2023-12-08 17:32:39,372 INFO    SenderThread:18912 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-08 17:32:39,373 INFO    SenderThread:18912 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-12-08 17:32:39,374 INFO    SenderThread:18912 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2023-12-08 17:32:39,375 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 9
+2023-12-08 17:32:39,376 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:39,376 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-08 17:32:39,377 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:39,378 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 9
+2023-12-08 17:32:39,378 INFO    SenderThread:18912 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-08 17:32:40,083 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 17:32:40,124 INFO    SenderThread:18912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\output.log
+2023-12-08 17:32:40,124 INFO    SenderThread:18912 [dir_watcher.py:finish():388] scan: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files
+2023-12-08 17:32:40,125 INFO    SenderThread:18912 [dir_watcher.py:finish():402] scan save: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\config.yaml config.yaml
+2023-12-08 17:32:40,126 INFO    SenderThread:18912 [dir_watcher.py:finish():402] scan save: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\output.log output.log
+2023-12-08 17:32:40,127 INFO    SenderThread:18912 [dir_watcher.py:finish():402] scan save: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\requirements.txt requirements.txt
+2023-12-08 17:32:40,135 INFO    SenderThread:18912 [dir_watcher.py:finish():402] scan save: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\wandb-metadata.json wandb-metadata.json
+2023-12-08 17:32:40,135 INFO    SenderThread:18912 [dir_watcher.py:finish():402] scan save: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\wandb-summary.json wandb-summary.json
+2023-12-08 17:32:40,137 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 10
+2023-12-08 17:32:40,140 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: poll_exit
+2023-12-08 17:32:40,141 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:40,141 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-08 17:32:40,143 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:40,147 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 10
+2023-12-08 17:32:40,147 INFO    SenderThread:18912 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-08 17:32:40,585 INFO    wandb-upload_0:18912 [upload_job.py:push():131] Uploaded file c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\config.yaml
+2023-12-08 17:32:41,084 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 17:32:41,084 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: poll_exit
+2023-12-08 17:32:41,418 INFO    wandb-upload_1:18912 [upload_job.py:push():131] Uploaded file c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\output.log
+2023-12-08 17:32:41,514 INFO    wandb-upload_2:18912 [upload_job.py:push():131] Uploaded file c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\requirements.txt
+2023-12-08 17:32:42,086 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 17:32:42,086 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: poll_exit
+2023-12-08 17:32:42,428 INFO    wandb-upload_3:18912 [upload_job.py:push():131] Uploaded file c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\files\wandb-summary.json
+2023-12-08 17:32:42,629 INFO    Thread-30 (_thread_body):18912 [sender.py:transition_state():617] send defer: 11
+2023-12-08 17:32:42,630 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:42,630 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-08 17:32:42,631 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:42,631 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 11
+2023-12-08 17:32:42,631 INFO    SenderThread:18912 [file_pusher.py:join():181] waiting for file pusher
+2023-12-08 17:32:42,631 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 12
+2023-12-08 17:32:42,631 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:42,632 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-08 17:32:42,632 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:42,632 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 12
+2023-12-08 17:32:42,633 INFO    SenderThread:18912 [file_stream.py:finish():595] file stream finish called
+2023-12-08 17:32:43,086 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 17:32:43,453 INFO    SenderThread:18912 [file_stream.py:finish():599] file stream finish is done
+2023-12-08 17:32:43,453 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 13
+2023-12-08 17:32:43,454 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: poll_exit
+2023-12-08 17:32:43,454 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:43,455 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-08 17:32:43,456 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:43,456 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 13
+2023-12-08 17:32:43,457 INFO    SenderThread:18912 [sender.py:transition_state():617] send defer: 14
+2023-12-08 17:32:43,457 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 17:32:43,459 INFO    HandlerThread:18912 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-08 17:32:43,459 DEBUG   SenderThread:18912 [sender.py:send():382] send: final
+2023-12-08 17:32:43,459 DEBUG   SenderThread:18912 [sender.py:send():382] send: footer
+2023-12-08 17:32:43,459 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: defer
+2023-12-08 17:32:43,459 INFO    SenderThread:18912 [sender.py:send_request_defer():613] handle sender defer: 14
+2023-12-08 17:32:43,460 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 17:32:43,461 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: poll_exit
+2023-12-08 17:32:43,462 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 17:32:43,464 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: server_info
+2023-12-08 17:32:43,464 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-08 17:32:43,464 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-08 17:32:43,465 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: server_info
+2023-12-08 17:32:43,465 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: job_info
+2023-12-08 17:32:43,665 DEBUG   SenderThread:18912 [sender.py:send_request():409] send_request: job_info
+2023-12-08 17:32:43,668 DEBUG   HandlerThread:18912 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-08 17:32:43,668 INFO    HandlerThread:18912 [handler.py:finish():866] shutting down handler
+2023-12-08 17:32:44,472 INFO    WriterThread:18912 [datastore.py:close():294] close: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231208_173056-bxesiidu\run-bxesiidu.wandb
+2023-12-08 17:32:44,666 INFO    SenderThread:18912 [sender.py:finish():1548] shutting down sender
+2023-12-08 17:32:44,667 INFO    SenderThread:18912 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-08 17:32:44,667 INFO    SenderThread:18912 [file_pusher.py:join():181] waiting for file pusher
