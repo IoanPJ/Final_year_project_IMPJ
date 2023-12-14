@@ -1,6 +1,0 @@
-
-['malignant' 'benign']
-The Bagged Neural Network accuracy is 90.60240963855422
-The Bagged Neural Network Confusion Matrix is:
-[[254  13]
- [ 26 122]]
