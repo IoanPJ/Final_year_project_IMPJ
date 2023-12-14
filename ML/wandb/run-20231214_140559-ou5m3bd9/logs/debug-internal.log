@@ -3256,3 +3256,10 @@
 2023-12-14 19:00:52,589 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: stop_status
 2023-12-14 19:00:52,591 DEBUG   SenderThread:3804 [sender.py:send_request():409] send_request: stop_status
 2023-12-14 19:00:55,756 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: status_report
+2023-12-14 19:01:00,759 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: status_report
+2023-12-14 19:01:05,761 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: status_report
+2023-12-14 19:01:07,529 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-14 19:01:07,586 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-14 19:01:07,587 DEBUG   SenderThread:3804 [sender.py:send_request():409] send_request: stop_status
+2023-12-14 19:01:10,886 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: status_report
+2023-12-14 19:01:15,902 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: status_report
