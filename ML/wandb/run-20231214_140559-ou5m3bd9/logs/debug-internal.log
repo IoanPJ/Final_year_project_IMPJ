@@ -1,0 +1,5 @@
+2023-12-14 14:05:59,592 INFO    StreamThr :3804 [internal.py:wandb_internal():86] W&B internal server running at pid: 3804, started at: 2023-12-14 14:05:59.591661
+2023-12-14 14:05:59,608 DEBUG   HandlerThread:3804 [handler.py:handle_request():146] handle_request: status
+2023-12-14 14:05:59,620 INFO    WriterThread:3804 [datastore.py:open_for_write():85] open: c:\Users\ioanp\Documents\Final Year Project\initial_coding\ML\wandb\run-20231214_140559-ou5m3bd9\run-ou5m3bd9.wandb
+2023-12-14 14:05:59,621 DEBUG   SenderThread:3804 [sender.py:send():382] send: header
+2023-12-14 14:05:59,684 DEBUG   SenderThread:3804 [sender.py:send():382] send: run
