@@ -30,7 +30,6 @@ class DataProcessor:
                 pass
             if np.array(data[classname])[i] == B:
                 Y[i] = 1
-        print('2 vars chosen')
         return data.loc[:, data.columns != classname] , Y
     
     def logtransform(self,data,features):
@@ -39,10 +38,8 @@ class DataProcessor:
         for x in featurelist:
             if np.min(data[x]) <=0:
                 data[x] = np.log(data[x] + 1)
-                print(x + ' check')
             else:
                 data[x] = np.log(data[x])
-                print(x+' check (n)')
         return data
     
     def multipleimputation(self,data,col,rmindices):

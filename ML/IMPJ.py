@@ -30,7 +30,6 @@ class DataProcessor:
                 pass
             if np.array(data[classname])[i] == B:
                 Y[i] = 1
-        print('check1')
         return data.loc[:, data.columns != classname] , Y
     
     def logtransform(self,data,features):
