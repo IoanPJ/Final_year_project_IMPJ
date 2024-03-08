@@ -1,0 +1,4 @@
+,Fit Results,KS Statistic,P-Value
+0,"  params: FitParams(s=101.62101924260547, loc=-5e-324, scale=8.681100828856947e-06)
+ success: True
+ message: 'The fit was performed successfully.'",0.526784500525613,0.979
