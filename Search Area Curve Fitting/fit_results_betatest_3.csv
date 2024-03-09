@@ -1,4 +1,4 @@
 ,Fit Results,KS Statistic,P-Value
-0,"  params: FitParams(a=0.9917982239963147, b=0.897499193398144, loc=-5.333722770767, scale=29.333722770767004)
+0,"  params: FitParams(a=1.9448843489852068, b=0.954310724765384, loc=-1.0740199265078705, scale=6.074019926507871)
  success: True
- message: 'The fit was performed successfully.'",0.23912666602985225,0.135
+ message: 'The fit was performed successfully.'",0.27521281971447115,0.006

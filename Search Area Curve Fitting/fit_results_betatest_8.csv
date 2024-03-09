@@ -1,4 +1,4 @@
 ,Fit Results,KS Statistic,P-Value
-0,"  params: FitParams(a=1.2244322525353568, b=0.7887578496720885, loc=-4.155407033596606, scale=24.15540703359661)
- success: False
- message: 'Optimization converged to parameter values that are inconsistent with the data.'",0.1851765496892099,0.024
+0,"  params: FitParams(a=1.8087461981534894, b=0.5399206769078557, loc=-0.8915466048684693, scale=5.89154660486847)
+ success: True
+ message: 'The fit was performed successfully.'",0.42740243776507797,0.017
