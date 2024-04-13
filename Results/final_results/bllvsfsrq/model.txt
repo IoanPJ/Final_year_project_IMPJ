@@ -1,0 +1,74 @@
+
+THE RESULTS IN THIS FOLDER WERE OBTAINED USING THE FOLLOWING MODEL.
+
+from sklearn.neural_network import MLPClassifier
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler, FunctionTransformer
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import BaggingClassifier
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
+from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, log_loss, roc_auc_score, RocCurveDisplay, roc_curve
+import numpy as np
+import pandas as pd
+from IMPJ import DataProcessor
+import random
+import matplotlib.pyplot as plt
+from os.path import basename, exists
+import matplotlib as mpl
+import random
+from tqdm import tqdm
+
+
+dp = DataProcessor()
+
+test_size = 0.3
+
+for x in range(1,11):
+        
+        # creating test and train data
+        
+        filepath = '..\\..\\Fermi-LAT Data\\imputed_wrappered_12_withbcus.csv'
+        data = pd.read_csv(filepath, index_col=0)
+        data=data.dropna()
+        X,Y = dp.choose_2_vars('CLASS1',data,1,2)
+        x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=test_size) 
+        
+        # adding radio galaxies and bcus to the test set
+        
+        y_test=np.append(y_test,np.array(data['CLASS1'].loc[data['CLASS1']==3]))
+        rdgs=data.loc[data['CLASS1']==3]
+        rdg_xs=rdgs.drop('CLASS1',axis=1)
+        bcus=data.loc[data['CLASS1']==0]
+        bcus=bcus.replace(0,7)
+        y_test=np.append(y_test,bcus['CLASS1'])
+        bcu_xs=bcus.drop('CLASS1',axis=1)
+        x_test=pd.concat([x_test,rdg_xs])
+        x_test=pd.concat([x_test,bcu_xs])
+        
+        # scaling data
+        
+        scaler = StandardScaler()  
+        scaler.fit(x_train)  
+        x_train = scaler.transform(x_train)  
+        x_test = scaler.transform(x_test)  
+
+        # machine learning training and prediction
+
+        NN = MLPClassifier(activation='tanh',hidden_layer_sizes=(50,50),learning_rate='constant',solver='sgd',max_iter=5000)
+        BNN = BaggingClassifier(estimator=NN,n_estimators=20,bootstrap=True)
+        BNN.fit(x_train,y_train)
+        y_pred = BNN.predict(x_test)
+        y_proba = BNN.predict_proba(x_test)
+
+        # Saving Reults
+
+        y_proba0=np.array(y_proba).T[0]
+        y_proba1=np.array(y_proba).T[1]
+        y_results = pd.DataFrame(y_test,columns=['y_test'])
+        y_results['y_pred']=y_pred
+        y_results['y_proba_0']=y_proba0
+        y_results['y_proba_1']=y_proba1
+        y_results.to_csv('..\\..\\Results\\final_results\\bllvsfsrq\\y_results_imputed_wrappered_12_run'+str(x)+'.csv')
+        
+        

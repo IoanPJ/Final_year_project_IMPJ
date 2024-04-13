@@ -1,2 +1,0 @@
-,Params,Accuracy,ROC AUC,ROC Weighted Av,Logarithmic Loss,F1 Score,CMatrix11,CMatrix12,CMatrix21,CMatrix22
-0,"{'solver': 'adam', 'learning_rate': 'adaptive', 'hidden_layer_sizes': (5, 58), 'activation': 'relu'}",91.08433734939759,0.900597226439923,0.900597226439923,3.213530543126107,0.8737201365187713,250,17,20,128
