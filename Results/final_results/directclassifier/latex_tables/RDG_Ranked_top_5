@@ -1,0 +1,11 @@
+\begin{tabular}{lrrlrr}
+\toprule
+Source_Name & RAJ2000 & DEJ2000 & ASSOC1 & ASSOC_PROB_BAY & ASSOC_PROB_LR \\
+\midrule
+4FGL J0503.6+4518 & 75.92 & 45.31 & GB6 J0503+4517 & 0.98 & 0.96 \\
+4FGL J0431.1+4433 & 67.79 & 44.56 & NaN & 0.00 & 0.00 \\
+4FGL J0359.4-2616 & 59.87 & -26.27 & PKS 0357-264 & 1.00 & 0.98 \\
+4FGL J0420.2+4012 & 65.05 & 40.20 & B3 0416+400 & 1.00 & 0.94 \\
+4FGL J0600.6-3939 & 90.15 & -39.65 & PKS 0558-396 & 1.00 & 0.96 \\
+\bottomrule
+\end{tabular}
